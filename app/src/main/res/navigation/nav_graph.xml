@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/notesFragment">
+
+    <fragment
+        android:id="@+id/addEditNoteFragment"
+        android:name="com.example.nukanote.com.example.nukanote.ui.AddEditNoteFragment"
+        android:label="AddEditNoteFragment" >
+        <action
+            android:id="@+id/action_addEditNoteFragment_to_notesFragment"
+            app:destination="@id/notesFragment" />
+        <argument
+            android:name="notes"
+            app:argType="com.example.nukanote.com.example.nukanote.data.entity.Notes"
+            app:nullable="true" />
+    </fragment>
+    <fragment
+        android:id="@+id/notesFragment"
+        android:name="com.example.nukanote.com.example.nukanote.ui.notesFragment"
+        android:label="notesFragment" >
+        <action
+            android:id="@+id/action_notesFragment_to_addEditNoteFragment"
+            app:destination="@id/addEditNoteFragment" />
+    </fragment>
+</navigation>

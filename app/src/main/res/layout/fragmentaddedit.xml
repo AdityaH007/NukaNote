@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/terminalbck">
+
+    <EditText
+        android:id="@+id/titleTextText"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:ems="10"
+        android:fontFamily="@font/monofontorg"
+        android:hint="Title"
+        android:inputType="text"
+        android:textAlignment="center"
+        android:textColor="#4DFF0F"
+        android:textColorHint="#4DFF0F"
+        android:textSize="40dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.477"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.086" />
+
+    <EditText
+        android:id="@+id/editcontent"
+        android:layout_width="285dp"
+        android:layout_height="398dp"
+        android:layout_marginStart="8dp"
+
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginBottom="8dp"
+
+        android:ems="10"
+        android:fontFamily="@font/monofontorg"
+        android:gravity="top"
+        android:hint="NUKA_NOTE"
+        android:textColorHint="#4DFF0F"
+        android:inputType="textMultiLine"
+        android:textColor="#4DFF0F"
+        android:textSize="20dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.506"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/titleTextText"
+        app:layout_constraintVertical_bias="0.336" />
+
+    <Button
+        android:id="@+id/savebutton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#183A03"
+        android:text="Save"
+        android:textColor="#4DFF0F"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.922" />
+</androidx.constraintlayout.widget.ConstraintLayout>
