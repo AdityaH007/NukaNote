@@ -1,6 +1,6 @@
 # NukaNote
 
-https://i.ibb.co/McGHgb0/Fallout-Pip-Boy.png [logo]
+![NukaNote Logo](https://i.ibb.co/McGHgb0/Fallout-Pip-Boy.png)
 
 
 NukaNote is a Fallout-themed note app built with Android Studio using Kotlin. It features a unique post-apocalyptic aesthetic, integrating Room for database management, XML for UI design, and follows the MVVM architecture. Navigation between fragments is facilitated by the use of Navigation Graphs.
