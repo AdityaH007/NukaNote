@@ -42,7 +42,7 @@ NukaNote is a Fallout-themed note app built with Android Studio using Kotlin. It
 
 ## Releases
 
-- see the releases page to download the app
+- [Download the latest release](https://github.com/AdityaH007/NukaNote/releases/download/NukaNote/NukaNote.apk)
 
 ## Contributing
 
