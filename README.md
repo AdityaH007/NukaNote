@@ -56,3 +56,6 @@ Contributions are welcome! If you have suggestions, feature requests, or found a
 
 
 Feel free to modify this README file according to your preferences, adding more details or adjusting the formatting. Good luck with your NukaNote project!
+
+[![AdityaH007's GitHub Stats](https://github-readme-stats.vercel.app/api?username=AdityaH007&show_icons=true&theme=radical)](https://github.com/AdityaH007)
+
